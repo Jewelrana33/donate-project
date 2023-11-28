@@ -229,3 +229,138 @@ footer p{
     padding: 30px 0;
     font-size: 13px;
 }
+
+/* responsive styles starts */
+
+@media screen and (max-width: 576px) {
+    .header-banner h1{
+        width:90%;
+        font-size: 40px;   
+    }
+    .header-banner p{
+        width: 80%;
+        font-size: 15px;
+    }
+    .dt-amount{
+        flex-direction: column;
+        gap: 20px;
+    }
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .dt-desc p{
+        width: 80%;
+        margin: 30px auto;
+        font-size: 15px;
+    }
+
+    .dp-desc{
+        width: 90%;
+    }
+    .dp-card-container{
+        flex-direction: column;
+        gap: 20px;
+    }.dp-card{
+        width: 90%;
+        padding: 30px;
+        text-align: center;
+    }
+    .dp-card p{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .their-lives{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 40px 0;
+        justify-content: start;
+        gap: 20px;
+    }
+    .their-lives img{
+        border-radius: 10px;
+        width: 100%;
+        padding: 0 5px;
+    }
+    .mail-subscribe{
+        width: 80%;
+        height: 120px;
+        padding-top: 50px;
+    }
+    .mu-desc p{
+        width: 80%;
+    }
+    .mail-subscribe input{
+       
+        width: 50%;
+        height: 30px;
+       
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .header-banner h1{
+        width:90%;
+        font-size: 40px;   
+    }
+    .header-banner p{
+        width: 80%;
+        font-size: 15px;
+    }
+    .dt-amount{
+        flex-direction: column;
+        gap: 20px;
+    }
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .dt-desc p{
+        width: 80%;
+        margin: 30px auto;
+        font-size: 15px;
+    }
+
+    .dp-desc{
+        width: 90%;
+    }
+    .dp-card-container{
+        flex-direction: column;
+        gap: 20px;
+    }.dp-card{
+        width: 90%;
+        padding: 30px;
+        text-align: center;
+    }
+    .dp-card p{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .their-lives{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 40px 0;
+        justify-content: start;
+        gap: 20px;
+    }
+    .their-lives img{
+        border-radius: 10px;
+        width: 100%;
+        padding: 0 5px;
+    }
+    .mail-subscribe{
+        width: 80%;
+        height: 120px;
+        padding-top: 50px;
+    }
+    .mu-desc p{
+        width: 80%;
+    }
+    .mail-subscribe input{
+       
+        width: 50%;
+        height: 30px;
+       
+    }
+}
